@@ -8,7 +8,7 @@
  **/
 
 /* Hide Nitro gift button */
-button[aria-label="Send a gift or Boost this server"] {
+button[aria-label="Send a gift or Boost this server"], button[aria-label="Send a gift"] {
   display: none;
 }
 
