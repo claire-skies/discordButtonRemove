@@ -21,3 +21,8 @@ button[aria-label="Open GIF picker"] {
 button[aria-label="Open sticker picker"] {
   display: none;
 }
+
+/* Hide Apps button */
+.channelAppLauncher_e6e74f {
+  display: none !important;
+}
