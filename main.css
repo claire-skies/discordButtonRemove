@@ -1,24 +1,24 @@
 /**
  * @name DiscordButtonRemove
- * @author dinodude
- * @version 0.0.1
+ * @author ClaireSkies413
+ * @version 0.1.0
  * @description Removes annoying buttons from the Discord message bar
- * @website https://github.com/dinodude7777
- * @source https://github.com/dinodude7777/discordButtonRemove
+ * @website https://github.com/claire-skies
+ * @source https://github.com/claire-skies/discordButtonRemove
  **/
 
 /* Hide Nitro gift button */
-button[aria-label="Send a gift or Boost this server"], button[aria-label="Send a gift"] {
+div[aria-label="Send a gift"] {
   display: none;
 }
 
 /* Hide GIF picker button */
-button[aria-label="Open GIF picker"] {
+div[aria-label="Open GIF picker"] {
   display: none;
 }
 
 /* Hide sticker picker button */
-button[aria-label="Open sticker picker"] {
+div[aria-label="Open sticker picker"] {
   display: none;
 }
 
