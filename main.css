@@ -8,7 +8,7 @@
  **/
 
 /* Hide Nitro gift button */
-div[aria-label="Send a gift"] {
+div[aria-label="Give a Gift"] {
   display: none;
 }
 
@@ -22,7 +22,7 @@ div[aria-label="Open sticker picker"] {
   display: none;
 }
 
-/* Hide Apps button */
-.channelAppLauncher_e6e74f {
-  display: none !important;
+/* Hide Apps Button */
+div[aria-label="Apps"] {
+    display: none;
 }
