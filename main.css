@@ -1,14 +1,17 @@
 /**
  * @name DiscordButtonRemove
  * @author ClaireSkies413
- * @version 0.1.2
+ * @version 0.1.3
  * @description Removes annoying buttons from the Discord message bar
  * @website https://github.com/claire-skies
  * @source https://github.com/claire-skies/discordButtonRemove
  **/
 
 /* Hide Nitro gift button */
-div[aria-label="Send a gift"] {
+div[aria-label="Send a gift"],
+div[aria-label="Send a Gift"]
+div[aria-label="Give a gift"],
+div[aria-label="Give a Gift"] {
   display: none;
 }
 

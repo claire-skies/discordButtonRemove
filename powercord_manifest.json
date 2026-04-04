@@ -1,7 +1,7 @@
 {
   "name": "Discord Button Remove",
   "description": "Removes annoying buttons in the Discord message bar",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "claire.skies",
   "theme": "/main.css",
   "license": "GPL-3",
